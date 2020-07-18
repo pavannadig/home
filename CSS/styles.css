@@ -1,0 +1,133 @@
+body {
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #e0ebe8 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  }
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.topContainer {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width:10%;
+}
+
+.bottomCloud {
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+  width:10%;
+}
+
+.myPic {
+  padding-top: 100px;
+  width: 250px;
+}
+
+.designImg {
+  float: left;
+  margin-right: 30px;
+  width: 25%
+}
+
+.chessImg {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+  transform: scaleX(-1);
+}
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width:50%;
+}
+
+
+.buttonContactMe {
+  background-color: #66BFBF;
+  border: solid 0;
+  border-color: #11999E;
+  color: white;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 30px auto 60px auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:15px;
+}
+
+.buttonContactMe:hover {
+  background-image: none;
+  background-color: #11999E;
+  color: white;
+}
+
+.bottomContainer {
+  background-color: #66BFBF;
+  padding: 50px 0 10px 0;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:50px 25px 0 0;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.logos {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.footnote {
+  color:#EAF6F6;
+  margin: 50px auto;
+  font-size: 0.75rem;
+}
